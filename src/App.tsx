@@ -43,7 +43,7 @@ function App() {
 
 export default App;
 */
-
+import { Analytics } from '@vercel/analytics/react';  // 👈 add at top with other imports
 import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -68,6 +68,7 @@ function HomePage() {
       <Certifications />
       <Contact />
       <Footer />
+      <Analytics />
     </>
   );
 }
