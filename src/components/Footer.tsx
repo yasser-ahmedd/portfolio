@@ -9,6 +9,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   const handleEmailClick = (e: React.MouseEvent) => {
+    e.preventDefault();
     navigator.clipboard.writeText(EMAIL);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
