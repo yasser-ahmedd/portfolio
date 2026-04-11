@@ -96,7 +96,7 @@ export function CriticalHit() {
         <motion.button
         onClick={triggerEmergency}
         whileHover={{ scale: 1.02 }}
-        className="relative mt-3 inline-flex items-center gap-2 overflow-hidden rounded-pill px-3 py-1 text-xs font-label text-sm uppercase tracking-wider text-body"
+        className="relative mt-3 inline-flex items-center gap-2 overflow-hidden rounded-pill px-3 py-3 text-xs font-label text-sm uppercase tracking-wider text-body"
         style={{
           background: 'rgba(10, 10, 60, 0.45)',
           backdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
@@ -111,7 +111,7 @@ export function CriticalHit() {
         }}
       >
         <span className="liquid-shimmer-bg pointer-events-none absolute inset-0 opacity-60" />
-        <span className="relative"><OctagonAlert className='text-red-400'></OctagonAlert></span>
+        <span className="relative text-base">🧐</span>
       </motion.button>
       </div>
       )}
