@@ -91,30 +91,55 @@ export function CriticalHit() {
   return (
     <>
       {/* 1. Normal Button */}
-      {stage === 'normal' && !isLoading && (
-        <div className="fixed bottom-6 right-6 z-50">
-        <motion.button
-        onClick={triggerEmergency}
-        whileHover={{ scale: 1.02 }}
-        className="relative mt-3 inline-flex items-center gap-2 overflow-hidden rounded-pill px-3 py-3 text-xs font-label text-sm uppercase tracking-wider text-body"
-        style={{
-          background: 'rgba(10, 10, 60, 0.45)',
-          backdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
-          WebkitBackdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
-          border: '1px solid rgba(180, 180, 255, 0.18)',
-          boxShadow: `
-            0 8px 32px rgba(0, 0, 255, 0.08),
-            0 2px 8px rgba(0, 0, 0, 0.25),
-            inset 0 1px 0 rgba(255, 255, 255, 0.15),
-            inset 0 -1px 0 rgba(0, 0, 0, 0.1)
-          `,
-        }}
-      >
-        <span className="liquid-shimmer-bg pointer-events-none absolute inset-0 opacity-60" />
-        <span className="relative text-base">🧐</span>
-      </motion.button>
-      </div>
-      )}
+{stage === 'normal' && !isLoading && (
+  <div className="fixed bottom-6 right-6 z-50 flex items-center gap-2">
+
+    {/* Gallery Button */}
+    <motion.button
+      onClick={() => window.location.href = '/gallery'}
+      whileHover={{ scale: 1.02 }}
+      className="relative inline-flex items-center overflow-hidden rounded-pill px-3 py-3 font-label text-sm text-body"
+      style={{
+        background: 'rgba(10, 10, 60, 0.45)',
+        backdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
+        WebkitBackdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
+        border: '1px solid rgba(180, 180, 255, 0.18)',
+        boxShadow: `
+          0 8px 32px rgba(0, 0, 255, 0.08),
+          0 2px 8px rgba(0, 0, 0, 0.25),
+          inset 0 1px 0 rgba(255, 255, 255, 0.15),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.1)
+        `,
+      }}
+    >
+      <span className="liquid-shimmer-bg pointer-events-none absolute inset-0 opacity-60" />
+      <span className="relative text-base">🖼️</span>
+    </motion.button>
+
+    {/* Existing CriticalHit Button */}
+    <motion.button
+      onClick={triggerEmergency}
+      whileHover={{ scale: 1.02 }}
+      className="relative inline-flex items-center overflow-hidden rounded-pill px-3 py-3 font-label text-sm text-body"
+      style={{
+        background: 'rgba(10, 10, 60, 0.45)',
+        backdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
+        WebkitBackdropFilter: 'blur(40px) saturate(180%) brightness(110%)',
+        border: '1px solid rgba(180, 180, 255, 0.18)',
+        boxShadow: `
+          0 8px 32px rgba(0, 0, 255, 0.08),
+          0 2px 8px rgba(0, 0, 0, 0.25),
+          inset 0 1px 0 rgba(255, 255, 255, 0.15),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.1)
+        `,
+      }}
+    >
+      <span className="liquid-shimmer-bg pointer-events-none absolute inset-0 opacity-60" />
+      <span className="relative text-base">🧐</span>
+    </motion.button>
+
+  </div>
+)}
 
       {/* 2. Emergency Overlay — hidden instantly when isLoading or stage is normal */}
       <AnimatePresence>

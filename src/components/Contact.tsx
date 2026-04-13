@@ -56,10 +56,10 @@ export function Contact() {
           transition={{ duration: 0.5 }}
           className="max-w-2xl mx-auto text-center"
         >
-          <h2 className="mb-4 font-heading font-heading text-3xl text-on-lit sm:text-4xl">
+          <h2 className="mb-4 font-heading font-heading text-3xl text-adaptive sm:text-4xl">
           Let's Connect 👋
           </h2>
-          <p className="mb-10 text-lg text-on-lit">
+          <p className="mb-10 text-lg text-adaptive">
             Hiring? Early stage startup? Random idea at 2am? I'm in.
           </p>
 
@@ -110,7 +110,7 @@ export function Contact() {
             className="liquid-glass-strong space-y-4 rounded-soft border-primary/25 p-6 text-left shadow-glass-lg sm:p-9"
           >
             <div>
-              <label htmlFor="name" className="mb-1 block font-label text-sm text-on-lit-muted">
+              <label htmlFor="name" className="mb-1 block font-label text-sm text-adaptive">
                 Name
               </label>
               <input
@@ -123,7 +123,7 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="email" className="mb-1 block font-label text-sm text-on-lit-muted">
+              <label htmlFor="email" className="mb-1 block font-label text-sm text-adaptive">
                 Email
               </label>
               <input
@@ -136,7 +136,7 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="message" className="mb-1 block font-label text-sm text-on-lit-muted">
+              <label htmlFor="message" className="mb-1 block font-label text-sm text-adaptive">
                 Message
               </label>
               <textarea

@@ -25,7 +25,7 @@ export function About() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl"
         >
-          <h2 className="mb-6 font-heading text-3xl text-heading sm:text-4xl">
+          <h2 className="mb-6 font-heading text-3xl text-adaptive sm:text-4xl">
             About Me
           </h2>
           <p style={{textAlign: 'justify'}} className="text-body text-lg leading-relaxed mb-10">

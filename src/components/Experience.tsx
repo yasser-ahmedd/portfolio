@@ -57,7 +57,7 @@ export function Experience() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="font-heading font-heading text-heading text-3xl sm:text-4xl mb-12"
+          className="font-heading font-heading text-adaptive text-3xl sm:text-4xl mb-12"
         >
           Experience
         </motion.h2>

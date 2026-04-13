@@ -74,7 +74,7 @@ export function Certifications() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="font-heading text-heading text-3xl sm:text-4xl mb-12"
+          className="font-heading text-adaptive text-3xl sm:text-4xl mb-12"
         >
           Certifications
         </motion.h2>

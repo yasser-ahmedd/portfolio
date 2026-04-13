@@ -52,7 +52,7 @@ export function Footer() {
       />
 
       <div className="mx-auto flex max-w-content flex-col items-center justify-between gap-6 px-4 pb-5 pt-9 sm:flex-row sm:px-6 lg:px-8">
-        <div className="font-heading text-lg text-heading">Yasser Ahmed</div>
+        <div className="font-heading text-lg text-heading text-adaptive">Yasser Ahmed</div>
         
         <nav className="flex gap-8 items-center relative">
           {SOCIAL_LINKS.map((social) => {

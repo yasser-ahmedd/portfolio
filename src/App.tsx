@@ -55,6 +55,7 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Certifications } from './components/Certifications';
 import { CriticalHit } from './components/CriticalHit';
+import { Gallery } from './components/Gallery';
 
 
 function HomePage() {
@@ -76,10 +77,16 @@ function HomePage() {
 function App() {
   return (
     <>
-      <Navbar />
+      
       <main>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={
+            <>
+              <Navbar />
+              <HomePage />
+            </>
+            } />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <CriticalHit />
       </main>
