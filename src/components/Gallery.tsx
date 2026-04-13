@@ -101,10 +101,7 @@ export function Gallery() {
           My{' '}
           <span className="relative inline-block">
             <span className="relative z-10 text-primary">Gallery</span>
-            <span
-              className="absolute -bottom-1 left-0 right-0 -z-0 h-3 rounded-full bg-primary/25 sm:h-4"
-              aria-hidden
-            />
+            
           </span>
         </motion.h1>
 
