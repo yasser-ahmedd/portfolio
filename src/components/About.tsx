@@ -28,7 +28,7 @@ export function About() {
           <h2 className="mb-6 font-heading text-3xl text-adaptive sm:text-4xl">
             About Me
           </h2>
-          <p style={{textAlign: 'justify'}} className="text-body text-lg leading-relaxed mb-10">
+          <p style={{textAlign: 'left'}} className="text-body text-lg leading-relaxed mb-10">
           <p><b>Software Engineer</b> focused on building scalable, high-performance systems.
            Keen on Algorithms, complex programming, and problem-solving.
            I pursued my Master's in Computer Science from Northern Illinois University.</p>
