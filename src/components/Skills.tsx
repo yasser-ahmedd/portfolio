@@ -14,36 +14,42 @@ const SKILL_CATEGORIES = [
   {
     label: 'Programming Languages',
     icon: Code,
+    color: 'rgba(220, 101, 41, 0.86)',
     bg: 'bg-primary/10',
     items: ['Python', 'Java', 'Golang', 'JavaScript', 'TypeScript', 'SQL'],
   },
   {
     label: 'Frontend',
     icon: PanelTop,
+    color: 'rgba(18, 208, 97, 0.86)',
     bg: 'bg-primary-mint/15',
     items: ['React', 'Next.js', 'Vue.js', 'Angular'],
   },
   {
     label: 'Backend',
     icon: Layers,
+    color: 'rgba(221, 36, 86, 0.86)',
     bg: 'bg-teal-50',
     items: ['Node.js','FastAPI', 'Spring Boot', 'Laravel', 'Kafka'],
   },
   {
     label: 'Databases',
     icon: Database,
+    color: 'rgba(82, 187, 69, 0.86)',
     bg: 'bg-emerald-50',
     items: ['MySQL', 'PostgreSQL', 'DynamoDB', 'MongoDB', 'Redis'],
   },
   {
     label: 'Cloud & DevOps',
     icon: Workflow,
+    color: 'rgba(185, 82, 206, 0.95)',
     bg: 'bg-green-50',
     items: ['AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform','CI/CD'],
   },
   {
     label: 'AI Tools',
     icon: Bot,
+    color: 'rgba(223, 216, 83, 0.86)',
     bg: 'bg-lime-50',
     items: ['Claude Code', 'Cursor', 'Lovable', 'GitHub Copilot', 'n8n'],
   },
@@ -82,7 +88,10 @@ export function Skills() {
               >
                 <div className="mb-4 flex items-center gap-3">
                   <div className="rounded-2xl bg-primary/15 p-3 shadow-sm ring-1 ring-primary/20">
-                    <Icon className="w-5 h-5 text-primary" />
+                  <Icon
+  className="w-5 h-5"
+  style={{ color: category.color || 'var(--primary)' }}
+/>
                   </div>
                   <h3 className="font-heading font-heading text-heading text-lg">
                     {category.label}

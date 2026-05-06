@@ -40,7 +40,7 @@ const CERTIFICATIONS = [
   {
     name: 'Programming, Data Structures And Algorithms Using Python',
     issuer: 'NPTEL',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_200_200/company-logo_200_200/0/1631333024279?e=1776902400&v=beta&t=L9TfpvK9JltfKniGabDsibrbWzzMPncrbqpaeRDrCcs',
+    logo: 'https://cdn.brandfetch.io/id_7zyHL2W/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1770529481404',
     earned: 'Oct 2019',
     expiry: 'No Expiry',
     link: 'https://archive.nptel.ac.in/content/noc/NOC19/SEM2/Ecertificates/106/noc19-cs40/Course/NPTEL19CS40S11401134191136993.jpg',

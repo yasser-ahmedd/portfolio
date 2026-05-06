@@ -260,8 +260,8 @@ export function Hero() {
         mixBlendMode: 'normal', 
         
         // Edge fade styles remain the same
-        maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 80%)',
-        WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 80%)',
+        //maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 80%)',
+        //WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 80%)',
       }}
     >
       <img
