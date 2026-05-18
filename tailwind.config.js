@@ -12,18 +12,17 @@ export default {
         'background-alt': '#00007a',
         'background-tint': '#00004d',
         primary: {
-          DEFAULT: '#6699ff',       /* light periwinkle — was #d0ff71 green */
-          dark: '#6666ff',          /* deeper blue — was #b8e85c */
-          light: '#bbccff',         /* pale blue — was #e8ff9a */
-          mint: '#aaaaff',          /* soft blue — was #b8e85c */
+          DEFAULT: '#66aaff',       /* brighter blue — better contrast */
+          dark: '#6666ff',          /* deeper blue */
+          light: '#bbccff',         /* pale blue */
+          mint: '#99bbff',          /* nudged closer to new default hue */
         },
         heading: '#ffffff',
-        body: '#ccddff',            /* light blue-white — was #d0ff71 green */
-        footer: '#00003a',          /* very dark navy — was #022208 dark green */
-        /* Readable on light areas (bottom of blue → white gradient) */
+        body: '#dde8ff',            /* slightly warmer — clearer hierarchy vs primary */
+        footer: '#00003a',
         'on-light': {
-          DEFAULT: '#0a0a3d',       /* dark navy — was #03390f dark green */
-          muted: '#3a3a6e',         /* muted navy — was #14532d */
+          DEFAULT: '#0a0a3d',
+          muted: '#3a3a6e',
         },
         'on-lit':{
           DEFAULT: '#dad0d0ef',
@@ -37,8 +36,6 @@ export default {
           'linear-gradient(165deg, #000066 0%, #0000aa 35%, #4444cc 62%, #aaaaee 85%, #ffffff 100%)',
       },
       fontFamily: {
-        /*heading: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],*/
         heading: ['Syne', 'system-ui', 'sans-serif'],
         body: ['Manrope', 'system-ui', 'sans-serif'],
       },
@@ -99,4 +96,4 @@ export default {
     },
   },
   plugins: [],
-}
+}//a

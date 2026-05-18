@@ -5,10 +5,8 @@ import { LiquidBackdrop } from './LiquidBackdrop';
 import { useState, useEffect, useCallback } from 'react';
 
 const PHOTOS = [
-  { src: '/img1.jpeg',  name: 'Creative Office' },
+  { src: '/img1.jpeg',  name: 'Communications Hill' },
   { src: '/img2.jpeg',  name: 'Trip back' },
-  { src: '/img3.jpeg',  name: 'Windmills' },
-  { src: '/img5.jpeg',  name: 'Hollwood Sign' },
   { src: '/img6.jpeg',  name: 'Cadillac Eldorado' },
   { src: '/img7.jpeg',  name: 'Fire Sunset' },
   { src: '/img8.jpeg',  name: 'Chicago' },

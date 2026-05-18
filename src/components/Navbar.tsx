@@ -154,7 +154,7 @@ useEffect(() => {
             to="#contact"
             className="inline-flex items-center justify-center rounded-pill px-6 py-2.5 font-label text-sm text-white transition-all duration-200 hover:scale-[1.03] hover:brightness-110"
             style={{
-              background: 'linear-gradient(135deg, rgba(100,100,255,0.9), rgba(60,60,200,0.9))',
+              background: 'linear-gradient(135deg, rgba(102, 170, 255, 0.9), rgba(60,60,200,0.9))',
               boxShadow: '0 2px 12px rgba(100, 100, 255, 0.35), inset 0 1px 0 rgba(255,255,255,0.2)',
             }}
             onClick={(e) => handleNavClick(e, '#contact')}
