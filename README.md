@@ -9,16 +9,5 @@ A modern, SaaS-inspired personal portfolio built with React, TypeScript, Tailwin
 - **Framer Motion** — scroll and hover animations
 - **React Router v6** — routing
 - **Lucide React** — icons
-- **@fontsource** — Plus Jakarta Sans & Inter (no CDN)
-
-## Project Structure
-```
-src/
-  components/     # Navbar, Hero, About, Skills, Projects, Experience, Contact, Footer, SectionWave
-  hooks/           # useScrollY, useActiveSection
-  lib/             # cn (clsx) utility
-  styles/          # global.css (Tailwind + base styles)
-  App.tsx
-  main.tsx
-```
+- **@fontsource** — Plus Jakarta Sans & Inter
 
