@@ -14,7 +14,7 @@ const CERTIFICATIONS = [
     link: 'https://www.credly.com/badges/dc4b7af0-56f6-4819-902c-7d7db497c258/public_url',
   },
   {
-    name: 'Microsoft Certified: Azure Associate',
+    name: 'Microsoft Certified: Azure Administrator Associate',
     issuer: 'Microsoft',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg',
     earned: 'Jul 2023',
