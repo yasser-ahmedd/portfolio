@@ -24,6 +24,13 @@ const PROJECTS = [
     tech: ['OpenCV', 'Tensorflow', 'MobileNet'],
     link: 'https://github.com/yasser-ahmedd/ATM-Threat-Detection',
   },
+  {
+    title: 'Data Warehouse Project',
+    description: 'Transforms raw data through ETL and dimensional modeling into analytics-ready datasets.',
+    image: 'dw1.jpeg',
+    tech: ['SQL'],
+    link: 'https://github.com/yasser-ahmedd/sql-data-warehouse',
+  },
 ];
 
 export function Projects() {
@@ -76,7 +83,7 @@ export function Projects() {
                 <h3 className="font-heading font-heading text-heading text-xl mb-2">
                   {project.title}
                 </h3>
-                <p className="text-body text-sm mb-4 line-clamp-2">
+                <p className="text-body text-sm mb-4">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
